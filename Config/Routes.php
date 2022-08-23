@@ -8,5 +8,6 @@ class Routes
 {
     public static function declare() {
         Config::addRoute("", "HomeController@index", ['GET']);
+        Config::setNotFoundRoute("ErrorController@notFound");
     }
 }
