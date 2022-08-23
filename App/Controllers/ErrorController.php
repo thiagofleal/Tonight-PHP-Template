@@ -7,6 +7,6 @@ use Tonight\MVC\Controller;
 class ErrorController extends Controller
 {
     public function notFound() {
-        $this->render("404", "main-template");
+        $this->render("404", "main");
     }
 }
